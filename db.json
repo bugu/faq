@@ -1,0 +1,353 @@
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "orders": {
+  "success": true,
+  "data": {
+    "id": 10,
+    "user_id": 3,
+    "order_status_id": 3,
+    "tax": 7.08,
+    "delivery_fee": 0,
+    "hint": null,
+    "active": true,
+    "driver_id": 33,
+    "delivery_address_id": null,
+    "payment_id": 8,
+    "created_at": "2020-12-18 19:40:05",
+    "updated_at": "2020-12-19 21:42:06",
+    "custom_fields": [],
+    "user": {
+      "id": 3,
+      "name": "Charles W. Abeyta",
+      "email": "client@demo.com",
+      "api_token": "fXLu7VeYgXDu82SkMxlLPG1mCAXc4EBIx6O5isgYVIKFQiHah0xiOHmzNsBv",
+      "device_token": "ekxuBYvYT9yJ_0lhv1KkXS:APA91bEj8QKHEzm4V9Mn27KqXq025uARzR5d6EQFyC0qWPK3HxZNMhXDjb3o09Zceiui6X9Ic8UXLZnrpdMx8fpJc5flMWjUM5evvomvruySnhUYsCCioN5SgDGT-hMqA2a4HWNWun1i",
+      "stripe_id": null,
+      "card_brand": null,
+      "card_last_four": null,
+      "trial_ends_at": null,
+      "braintree_id": null,
+      "paypal_email": null,
+      "created_at": "2019-10-12 21:31:26",
+      "updated_at": "2020-12-20 14:44:10",
+      "custom_fields": {
+        "phone": {
+          "value": "+5352153969",
+          "view": "+5352153969",
+          "name": "phone"
+        },
+        "bio": {
+          "value": "Aliquet porttitor lacus lucvvbtus accumsan tortor posuere ac ut. Tortor pretium viverra suspendisse",
+          "view": "Aliquet porttitor lacus lucvvbtus accumsan tortor posuere ac ut. Tortor pretium viverra suspendisse",
+          "name": "bio"
+        },
+        "address": {
+          "value": "1850 Big Elm Kansasbbbb City, MO 64106",
+          "view": "1850 Big Elm Kansasbbbb City, MO 64106",
+          "name": "address"
+        }
+      },
+      "has_media": false,
+      "media": []
+    },
+    "product_orders": [
+      {
+        "id": 9,
+        "price": 11.93,
+        "quantity": 1,
+        "product_id": 10,
+        "order_id": 10,
+        "created_at": "2020-12-18 19:40:05",
+        "updated_at": "2020-12-18 19:40:05",
+        "custom_fields": [],
+        "product": {
+          "id": 10,
+          "name": "Pasta",
+          "price": 11.93,
+          "discount_price": 0,
+          "description": "Delectus vel enim fugit veniam nostrum aut. Ipsam dolores consequatur est aut nostrum veritatis iure. Accusamus reiciendis porro quo a et et doloremque eos.",
+          "capacity": 446.08,
+          "package_items_count": 5,
+          "unit": "g",
+          "featured": false,
+          "deliverable": true,
+          "market_id": 1,
+          "category_id": 5,
+          "created_at": "2020-04-12 16:51:00",
+          "updated_at": "2020-04-12 16:51:00",
+          "custom_fields": [],
+          "has_media": true,
+          "market": {
+            "id": 1,
+            "name": "Shop Hessel and Sons",
+            "delivery_fee": 3.85,
+            "address": "Kortumstraße 4 Bochum",
+            "phone": "674-873-6439 x071",
+            "default_tax": 7.08,
+            "custom_fields": [],
+            "has_media": true,
+            "rate": "3.0",
+            "media": [
+              {
+                "id": 2,
+                "model_type": "App\\Models\\Market",
+                "model_id": 1,
+                "collection_name": "image",
+                "name": "markets (14)",
+                "file_name": "markets-(14).jpg",
+                "mime_type": "image/jpeg",
+                "disk": "public",
+                "size": 95339,
+                "manipulations": [],
+                "custom_properties": {
+                  "uuid": "1e3b7bb7-fd30-4269-adcc-83d83b15d93f",
+                  "generated_conversions": {
+                    "thumb": true,
+                    "icon": true
+                  }
+                },
+                "responsive_images": [],
+                "order_column": 2,
+                "created_at": "2020-04-15 14:08:04",
+                "updated_at": "2020-04-15 14:08:04",
+                "url": "https://markets.smartersvision.com/storage/app/public/2/markets-%2814%29.jpg",
+                "thumb": "https://markets.smartersvision.com/storage/app/public/2/conversions/markets-%2814%29-thumb.jpg",
+                "icon": "https://markets.smartersvision.com/storage/app/public/2/conversions/markets-%2814%29-icon.jpg",
+                "formated_size": "93.1 KB"
+              }
+            ]
+          },
+          "media": [
+            {
+              "id": 132,
+              "model_type": "App\\Models\\Product",
+              "model_id": 10,
+              "collection_name": "image",
+              "name": "products (26)",
+              "file_name": "products-(26).jpg",
+              "mime_type": "image/jpeg",
+              "disk": "public",
+              "size": 160146,
+              "manipulations": [],
+              "custom_properties": {
+                "uuid": "c81f680d-b98e-44a5-99aa-fe9d37d1e02e",
+                "generated_conversions": {
+                  "thumb": true,
+                  "icon": true
+                }
+              },
+              "responsive_images": [],
+              "order_column": 132,
+              "created_at": "2020-04-15 14:27:58",
+              "updated_at": "2020-04-15 14:27:58",
+              "url": "https://markets.smartersvision.com/storage/app/public/132/products-%2826%29.jpg",
+              "thumb": "https://markets.smartersvision.com/storage/app/public/132/conversions/products-%2826%29-thumb.jpg",
+              "icon": "https://markets.smartersvision.com/storage/app/public/132/conversions/products-%2826%29-icon.jpg",
+              "formated_size": "156.4 KB"
+            }
+          ]
+        },
+        "options": []
+      }
+    ],
+    "order_status": {
+      "id": 3,
+      "status": "Ready",
+      "created_at": "2019-10-15 17:04:30",
+      "updated_at": "2019-10-15 17:04:30",
+      "custom_fields": []
+    },
+    "delivery_address": null,
+    "payment": {
+      "id": 8,
+      "price": 12.77,
+      "description": "Order not paid yet",
+      "user_id": 1,
+      "status": "Not Paid",
+      "method": "Pay on Pickup",
+      "created_at": "2020-12-18 19:40:05",
+      "updated_at": "2020-12-19 21:57:08",
+      "custom_fields": []
+    }
+  },
+  "message": "Order retrieved successfully"
+},
+  "ordersx": {
+    "success": true,
+    "data": [
+      {
+        "id": 10,
+        "user_id": 3,
+        "order_status_id": 3,
+        "tax": 7.08,
+        "delivery_fee": 0,
+        "hint": null,
+        "active": true,
+        "driver_id": 33,
+        "delivery_address_id": null,
+        "payment_id": 8,
+        "created_at": "2020-12-18 19:40:05",
+        "updated_at": "2020-12-19 21:42:06",
+        "custom_fields": [],
+        "driver": {
+          "id": 33,
+          "name": "Mahmut",
+          "email": "mahmut@demo.com",
+          "api_token": "cgVO7pMk6xOJGYT1YnSOeiscVZ42kdPQ0XZMSftxuS7XKrtVy8UASu3xexPY",
+          "device_token": "fRdFuh_oSdGAA4npuoWJdI:APA91bHV3nnfKb4HmRLIOHaA7o8J6kGQRwHMALbgd6vzwpxGMTM-fRW0NFwFtdveYDaRhSucLhzc0fOytHx2ii6aIP9nlROzCRuZfiHKL9ITMNgoV5LaE4I-srM9WbKjpesQYlju_dg5",
+          "stripe_id": null,
+          "card_brand": null,
+          "card_last_four": null,
+          "trial_ends_at": null,
+          "braintree_id": null,
+          "paypal_email": null,
+          "created_at": "2020-12-19 21:12:14",
+          "updated_at": "2020-12-19 21:12:14",
+          "custom_fields": {
+            "phone": {
+              "value": "+44125454123",
+              "view": "+44125454123",
+              "name": "phone"
+            },
+            "bio": {
+              "value": "Personel",
+              "view": "Personel",
+              "name": "bio"
+            },
+            "address": {
+              "value": "Camikebir mah Cumaovasi",
+              "view": "Camikebir mah Cumaovasi",
+              "name": "address"
+            }
+          },
+          "has_media": false,
+          "media": []
+        },
+        "product_orders": [
+          {
+            "id": 9,
+            "price": 11.95,
+            "quantity": 1,
+            "product_id": 10,
+            "order_id": 10,
+            "created_at": "2020-12-18 19:40:05",
+            "updated_at": "2020-12-18 19:40:05",
+            "custom_fields": [],
+            "product": {
+              "id": 10,
+              "name": "Tamir",
+              "price": 11.93,
+              "discount_price": 0,
+              "description": "Delectus vel enim fugit veniam nostrum aut. Ipsam dolores consequatur est aut nostrum veritatis iure. Accusamus reiciendis porro quo a et et doloremque eos.",
+              "capacity": 446.08,
+              "package_items_count": 5,
+              "unit": "g",
+              "featured": false,
+              "deliverable": true,
+              "market_id": 1,
+              "category_id": 5,
+              "created_at": "2020-04-12 16:51:00",
+              "updated_at": "2020-04-12 16:51:00",
+              "custom_fields": [],
+              "has_media": true,
+              "market": {
+                "id": 1,
+                "name": "Girişteki kapı kolu tamir edilecek.",
+                "delivery_fee": 3.85,
+                "address": "Kortumstraße 4 Bochum",
+                "phone": "674-873-6439 x071",
+                "default_tax": 7.08,
+                "custom_fields": [],
+                "has_media": true,
+                "rate": "3.0",
+                "media": [
+                  {
+                    "id": 2,
+                    "model_type": "App\\Models\\Market",
+                    "model_id": 1,
+                    "collection_name": "image",
+                    "name": "markets (14)",
+                    "file_name": "markets-(14).jpg",
+                    "mime_type": "image/jpeg",
+                    "disk": "public",
+                    "size": 95339,
+                    "manipulations": [],
+                    "custom_properties": {
+                      "uuid": "1e3b7bb7-fd30-4269-adcc-83d83b15d93f",
+                      "generated_conversions": {
+                        "thumb": true,
+                        "icon": true
+                      }
+                    },
+                    "responsive_images": [],
+                    "order_column": 2,
+                    "created_at": "2020-04-15 14:08:04",
+                    "updated_at": "2020-04-15 14:08:04",
+                    "url": "https://markets.smartersvision.com/storage/app/public/2/markets-%2814%29.jpg",
+                    "thumb": "https://markets.smartersvision.com/storage/app/public/2/conversions/markets-%2814%29-thumb.jpg",
+                    "icon": "https://markets.smartersvision.com/storage/app/public/2/conversions/markets-%2814%29-icon.jpg",
+                    "formated_size": "93.1 KB"
+                  }
+                ]
+              },
+              "media": [
+                {
+                  "id": 132,
+                  "model_type": "App\\Models\\Product",
+                  "model_id": 10,
+                  "collection_name": "image",
+                  "name": "products (26)",
+                  "file_name": "products-(26).jpg",
+                  "mime_type": "image/jpeg",
+                  "disk": "public",
+                  "size": 160146,
+                  "manipulations": [],
+                  "custom_properties": {
+                    "uuid": "c81f680d-b98e-44a5-99aa-fe9d37d1e02e",
+                    "generated_conversions": {
+                      "thumb": true,
+                      "icon": true
+                    }
+                  },
+                  "responsive_images": [],
+                  "order_column": 132,
+                  "created_at": "2020-04-15 14:27:58",
+                  "updated_at": "2020-04-15 14:27:58",
+                  "url": "https://i.ibb.co/xmXDzWw/602px-Gold-doorknob-crop.jpg",
+                  "thumb": "https://i.ibb.co/xmXDzWw/602px-Gold-doorknob-crop.jpg",
+                  "icon": "https://i.ibb.co/xmXDzWw/602px-Gold-doorknob-crop.jpg",
+                  "formated_size": "156.4 KB"
+                }
+              ]
+            },
+            "options": []
+          }
+        ],
+        "order_status": {
+          "id": 3,
+          "status": "Aktif",
+          "created_at": "2019-10-15 17:04:30",
+          "updated_at": "2019-10-15 17:04:30",
+          "custom_fields": []
+        },
+        "delivery_address": null,
+        "payment": {
+          "id": 8,
+          "price": 12.77,
+          "description": "Order not paid yet",
+          "user_id": 1,
+          "status": "Not Paid",
+          "method": "",
+          "created_at": "2020-12-18 19:40:05",
+          "updated_at": "2020-12-19 21:57:08",
+          "custom_fields": []
+        }
+      }
+    ],
+    "message": "Orders retrieved successfully"
+  }
+}
